@@ -435,7 +435,9 @@ span {
     border: 0.2rem solid var(--main-color);
     border-radius: 0.6rem;
     margin-bottom: 2rem;
-    height: 200px;
+    height: 230px;
+    overflow: scroll;
+    
 }
 
 .education-content .content::before {
@@ -829,10 +831,16 @@ span {
     }
 
     .home {
-        padding: 0 4%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .footer {
         padding: 2rem 4%;
+    }
+    .home-imgHover{
+        display: none;
     }
 
 }
