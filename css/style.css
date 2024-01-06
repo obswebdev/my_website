@@ -436,7 +436,7 @@ span {
     border-radius: 0.6rem;
     margin-bottom: 2rem;
     height: 230px;
-    overflow: scroll;
+    /* overflow: scroll; */
     
 }
 
